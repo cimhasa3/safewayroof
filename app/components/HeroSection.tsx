@@ -29,7 +29,7 @@ export default function HeroSection() {
 
         {/* Hero section */}
         <div className=" py-[94px] bg-[#FFF5F5] mt-[30px] card-shadow md:rounded-[20px] flex flex-col items-center">
-          <h1 className="max-w-[553px] text-black text-[30px] md:text-[50px] font-bold text-center">
+          <h1 className="max-w-[553px] text-black text-[20px] md:text-[40px] font-bold text-center">
             TOP LOCAL ROOFING CONTRACTORS
           </h1>
           <div className="max-w-[520px] mt-[31px] text-[20px] md:text-[30px] font-semibold text-[#555] text-center">
