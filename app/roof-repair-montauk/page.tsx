@@ -1,10 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import Review from "./components/Review";
 
 export default function RoofRepairMontauk() {
   return (
-      <div className="">
+
     <>
       <Head>
         <title>Roof Repair Montauk NY - Fast & Reliable Roofing Services</title>
@@ -147,7 +146,10 @@ export default function RoofRepairMontauk() {
 
 
 
-  <Review />
+
+
+
+      
 
       {/* Footer */}
       <div className="bg-black pt-[50px] pb-[76px] px-[22px]">
