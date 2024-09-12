@@ -6,7 +6,7 @@ import WhyChoose from "./components/WhyChoose";
 import Footer from "./components/Footer";
 import Review from "./components/Review";
 
-export default function Home() {
+export default function Roof Repair Montauk() {
   return (
     <div className="">
       <HeroSection />
