@@ -145,7 +145,7 @@ export default function RoofRepairMontauk() {
 
 
 
-import Review from "./components/Review";
+  <Review />
 
       {/* Footer */}
       <div className="bg-black pt-[50px] pb-[76px] px-[22px]">
