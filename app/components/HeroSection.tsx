@@ -33,7 +33,7 @@ export default function HeroSection() {
             TOP LOCAL ROOFING CONTRACTORS
           </h1>
           <div className="max-w-[520px] mt-[31px] text-[20px] md:text-[30px] font-semibold text-[#555] text-center">
-  24-Hour Same-Day Roof Repairs Call Now: <a href="tel:8006456676" className="text-blue-600">(800) 645-6676</a>
+  24-Hour Same-Day Roof Repairs Call Now: <a href="tel:8006456676">(800) 645-6676</a>
 </div>
 
           <div className="bg-[#CC0000] flex px-[31px] py-[18px] gap-3 rounded-[5px] font-bold text-[25px] text-white mt-[30px]  md:px-5 md:py-2.5">
