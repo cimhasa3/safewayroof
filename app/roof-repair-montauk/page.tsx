@@ -143,43 +143,9 @@ export default function RoofRepairMontauk() {
         </div>
       </div>
 
-      {/* Customer Reviews Section */}
-      <div className="container mx-auto px-4 md:px-[60px] mb-12">
-        <h2 className="text-[30px] md:text-[50px] font-medium text-center">What Montauk Residents Say About Our Roof Repair Services</h2>
-        <div className="md:mt-6 mt-5">
-          <div className="swiper mySwiper">
-            <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <div className="mr-10 md:mr-0 cursor-pointer">
-                  <div className="review-card pb-10 rounded-[20px] p-5 m-5 mb-16 md:bg-white bg-[#FFF5F5] hover:bg-[#FFF5F5] w-full md:w-[390px]">
-                    <div className="flex items-center">
-                      <img alt="" loading="lazy" width="78" height="78" decoding="async" data-nimg="1" srcSet="/_next/image?url=%2Fuser-1.png&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fuser-1.png&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2Fuser-1.png&amp;w=256&amp;q=75" />
-                      <div className="ml-3">
-                        <div className="text-[25px] font-medium text-[#CC0000] italic">John D.</div>
-                        <div className="flex gap-1 mt-2">
-                          <img alt="star" loading="lazy" width="16" height="16" decoding="async" src="/_next/static/media/start.0a51adbc.svg" />
-                          <img alt="star" loading="lazy" width="16" height="16" decoding="async" src="/_next/static/media/start.0a51adbc.svg" />
-                          <img alt="star" loading="lazy" width="16" height="16" decoding="async" src="/_next/static/media/start.0a51adbc.svg" />
-                          <img alt="star" loading="lazy" width="16" height="16" decoding="async" src="/_next/static/media/start.0a51adbc.svg" />
-                          <img alt="star" loading="lazy" width="16" height="16" decoding="async" src="/_next/static/media/start.0a51adbc.svg" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="mt-4 text-[20px] font-medium max-w-[244px]">
-                      Professional, Courteous & Fair Prices
-                    </div>
-                    <div className="mt-4">
-                      “Thanks Safeway Roofing for doing an amazing job repairing our roof in Montauk. Your crew was professional, on time, and courteous.”
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* Additional Reviews */}
-            </div>
-            <div className="swiper-pagination"></div>
-          </div>
-        </div>
-      </div>
+
+
+import Review from "./components/Review";
 
       {/* Footer */}
       <div className="bg-black pt-[50px] pb-[76px] px-[22px]">
