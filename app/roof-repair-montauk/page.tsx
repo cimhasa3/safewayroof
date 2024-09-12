@@ -64,22 +64,49 @@ export default function RoofRepairMontauk() {
       </div>
 
       {/* Why Choose Us Section */}
-      <div className="container mx-auto px-4 md:px-8 mt-12">
-        <h3 className="text-3xl md:text-4xl font-semibold text-gray-800 text-center">
-          Why Choose Us for Roof Repair in Montauk?
-        </h3>
-        <p className="mt-4 text-gray-600 text-lg md:text-xl text-center">
-          We understand the unique challenges of roofing in Montauk, from saltwater damage to harsh
-          winds. Our local roofing experts provide long-lasting solutions.
+      <div className="container mx-auto px-4 md:px-[60px] mt-[50px] mb-20">
+        <h2 className="text-[30px] md:text-[50px] font-medium px-4 text-center">
+          Why Choose Us for Roof Repair in Montauk, NY?
+        </h2>
+        <p className="mt-6 text-[#555] text-[20px] md:text-[25px] text-center">
+          At All Island Pro, our dedication to excellence, competitive pricing, and meticulous attention to every detail set us apart from the competition.
         </p>
-        <div className="grid md:grid-cols-2 gap-6 mt-8">
-          <div className="text-center md:text-left">
-            <h4 className="text-xl font-medium text-gray-700">24/7 Emergency Roof Repair in Montauk</h4>
-            <p className="mt-2 text-gray-600">Roof emergencies don't wait. We offer 24/7 emergency roof repair services to keep your home safe.</p>
+        <div className="grid md:grid-cols-2 gap-10 md:gap-20 mt-[50px]">
+          <div className="col-span-1">
+            <div className="flex md:items-center gap-[5px] md:gap-5 flex-col md:flex-row">
+              <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" src="/_next/static/media/transparent.89f8a9ea.svg"/>
+              <div className="text-[25px] font-medium">Transparent, Up-Front Quotes:</div>
+            </div>
+            <div className="md:mt-5 mt-2.5 md:text-[20px] text-[#555]">
+              We believe in honesty and clarity from the start, ensuring you fully understand the scope and cost of your project.
+            </div>
           </div>
-          <div className="text-center md:text-left">
-            <h4 className="text-xl font-medium text-gray-700">Free Roof Repair Estimates</h4>
-            <p className="mt-2 text-gray-600">Get a no-obligation estimate for your roof repair project in Montauk. Our quotes are transparent and upfront, with no hidden fees.</p>
+          <div className="col-span-1">
+            <div className="flex md:items-center gap-[5px] md:gap-5 flex-col md:flex-row">
+              <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" src="/_next/static/media/prompt.ed41df2f.svg"/>
+              <div className="text-[25px] font-medium">Prompt Service:</div>
+            </div>
+            <div className="md:mt-5 mt-2.5 md:text-[20px] text-[#555]">
+              Offering same or next-day service to address your roofing needs without delay.
+            </div>
+          </div>
+          <div className="col-span-1">
+            <div className="flex md:items-center gap-[5px] md:gap-5 flex-col md:flex-row">
+              <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" src="/_next/static/media/certified.24737a2b.svg"/>
+              <div className="text-[25px] font-medium">Certified & Licensed Contractors:</div>
+            </div>
+            <div className="md:mt-5 mt-2.5 md:text-[20px] text-[#555]">
+              Our team comprises only fully certified and licensed professionals, guaranteeing top-tier expertise and craftsmanship.
+            </div>
+          </div>
+          <div className="col-span-1">
+            <div className="flex md:items-center gap-[5px] md:gap-5 flex-col md:flex-row">
+              <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" src="/_next/static/media/satisfaction.3cc66723.svg"/>
+              <div className="text-[25px] font-medium">100% Satisfaction Guarantee:</div>
+            </div>
+            <div className="md:mt-5 mt-2.5 md:text-[20px] text-[#555]">
+              Your peace of mind is our priority. We stand behind our work with a steadfast commitment to your satisfaction.
+            </div>
           </div>
         </div>
       </div>
@@ -104,6 +131,44 @@ export default function RoofRepairMontauk() {
             <p className="text-gray-800">"Great service! They were professional and efficient. Our roof looks brand new."</p>
             <p className="mt-2 text-sm text-gray-500">- Sarah W., Montauk, NY</p>
           </div>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <div className="bg-black pt-[50px] pb-[76px] px-[22px]">
+        <div className="container mx-auto text-center">
+          <div className="text-[#C00] text-[25px] font-bold">24-Hour Roof Repair</div>
+          <div className="text-white mt-[15px]">Same-Day Roof & Leak Repairs.<br/>Call Now: (888) 393-0442</div>
+          <div className="flex justify-between flex-col md:flex-row mt-[50px] px-[22px]">
+            <div>
+              <img src="/_next/static/media/logo-footer.d99295ec.svg" alt="Logo" className="w-20 mx-auto md:mx-0" />
+              <div className="grid grid-cols-2 gap-8 md:gap-12 mt-4">
+                <div className="flex flex-col gap-3">
+                  <a href="#" className="text-white text-[15px]">Contact Us</a>
+                  <a href="#" className="text-white text-[15px]">Terms Of Service</a>
+                </div>
+                <div className="flex flex-col gap-3">
+                  <a href="#" className="text-white text-[15px]">About Us</a>
+                  <a href="#" className="text-white text-[15px]">Privacy Policy</a>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8 md:mt-0">
+              <h2 className="text-[#CC0000] text-[20px] font-bold">ROOF REPAIR</h2>
+              <div className="grid grid-cols-2 gap-8 md:gap-12">
+                <div className="flex flex-col gap-3">
+                  <a href="#" className="text-white text-[15px]">Roof Repair</a>
+                  <a href="#" className="text-white text-[15px]">Roof Installation</a>
+                  <a href="#" className="text-white text-[15px]">Roof Replacement</a>
+                </div>
+                <div className="flex flex-col gap-3">
+                  <a href="#" className="text-white text-[15px]">Roof Leak Repair</a>
+                  <a href="#" className="text-white text-[15px]">Roof Flashing Repair</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="text-center text-[15px] mt-6 text-white">ROOF MATCH PRO is a free service that helps users connect with local roofers...</p>
         </div>
       </div>
     </>
