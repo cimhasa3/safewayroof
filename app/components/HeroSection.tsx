@@ -9,7 +9,7 @@ export default function HeroSection() {
   return (
     <div>
       <div className="#FFFFFF container mx-auto ">
-        <div className="h-[70px] md:h-20 flex items-end md:pb-[6px] justify-between px-4 md:px-0">
+        <div className="h-[90px] md:h-20 flex items-end md:pb-[6px] justify-between px-4 md:px-0">
           {/* Logo */}
           <div className="">
             <div className="hidden md:block">
