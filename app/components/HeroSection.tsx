@@ -13,10 +13,10 @@ export default function HeroSection() {
           {/* Logo */}
           <div className="">
             <div className="hidden md:block">
-              <Image src={Logo} height={55} width={290} alt="Roofing" />
+              <Image src={Logo} height={95} width={290} alt="Roofing" />
             </div>
             <div className="md:hidden">
-              <Image src={Logo} height={40} width={180} alt="Roofing" />
+              <Image src={Logo} height={90} width={180} alt="Roofing" />
             </div>
           </div>
           <div className="bg-[#CC0000] flex px-4 md:px-5 py-2 md:py-2.5 gap-3 rounded-[5px]">
