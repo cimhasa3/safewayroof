@@ -4,6 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'GeistMonoVF';
+  src: url('/app/fonts/GeistMonoVF.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GeistVF';
+  src: url('/app/fonts/GeistVF.woff') format('woff');
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #000;
